@@ -1,13 +1,26 @@
+/**==============================================
+ * *                Temp Score
+ *  Temporary Score calculation css styling
+ *  Container - temp-score-box
+ *
+ *  TODO - Contraints - 
+ *     Media Types: Large Device, Small Device
+ *  
+ *=============================================**/
 /* src/Components/TempScoreBox/TempScoreBox.css */
 
 .temp-score-box {
-  width:stretch;
+  width: 140px;
+  text-align: center;
     background-color: #bdda7f;
-    border-radius: 0.75rem; 
-    font-size: 2.875rem; 
-    color: black; 
-    padding: 1.75 rem; 
-    margin-inline: 2.0rem ;
+    color: black;  
     border-width: thin;
     border-color: hsl(0, 0%, 0%);
+    border-radius: 0.75rem; 
+
+    font-size: 2.875rem; 
+
+    padding: .30rem; 
+    margin-inline: 1.2rem;
+    margin-block: 1.0rem;
 }

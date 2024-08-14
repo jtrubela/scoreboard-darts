@@ -1,92 +1,48 @@
+/* index.css */
+
 body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-
   line-height: 1.5;
   color-scheme: light dark;
   background-color: #242424;
-
-  min-width: 620px;
-  max-width: 100%;
-
   margin: 0 auto;
   padding: 0 auto;
+  /* ********** */
   height: 100vh;
+ /* ********** */
+
   display: flex;
   justify-content: center;
   align-items: center;
+  /* min-width: 920px; */
+  /* max-width: 100%; */
 }
 
-
-.bg-main{
-  width: 100%;
-  max-width: 1024px;
-  min-width: 320px;
+.bg-main {
+  /* width: 100%; */
+  min-height: fit-content;
+  min-width: 600px; /* Match the min-width of Keypad */
   margin: 0 auto;
-
-  background-color: green ; 
+  background-color: green;
   border: 4px solid black;
   color: white;
-  padding: 2.00rem 2.25rem;
-  border-radius: 1.50rem;
+  padding: 0 auto; /* Reduced padding for better fit */
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content within bg-main */
 }
 
 
-
-/* CSS */
-@media (max-width: 620px) {
-  .container {
-    width: 100%;
-    min-width: 620px;
-    overflow-x: auto; /* Adds horizontal scrolling if needed */
+/* Max-w --- Allow bg-main to scale down fully */ 
+/* Padd ---- Adjust padding for smaller screens */
+/* overflow -- Prevent unwanted horizontal scroll */
+/* @media (max-width: 620px) {
+  .bg-main {
+    max-width: 100%; 
+    padding: 1rem;
   }
-
-  .container {
-    width: 100%;
-    min-width: 620px;
-    overflow-x: auto; /* Adds horizontal scrolling if needed */
-  }
-
-
   body {
-    overflow-x: hidden; /* Prevents unwanted horizontal scroll on the body */
-  }
-}
-
-
-
-
-
-
-
-/**========================================================================
- **                           FUNCTION NAME
- *?  What does it do?
-      Entire container in maincontainer
- *@param name type  
- *@param name type  
- *@return type
- *========================================================================**/
-/* #scoreBored {
-  .score-inning-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 4px; 
-  } 
-
-} */
-
-
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    overflow-x: hidden; 
   }
 } */

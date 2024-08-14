@@ -1,26 +1,29 @@
 import { useState, useEffect } from 'react';
-/**=======================
+/**==============================================
+ * *                MainContainer
+ *   Container - Components: MainContainer
+ *
+ *  TODO - Contraints - 
+ *     Media Types: Large Device, Small Device
+ *  
+ *=============================================
  *     Imports needed
  *  Components -
- * 
  *    -->Scoreboxes
  *    -->ControlButtons
  *    -->Keypad
  *    -->ScoreByInning
- *  
- *========================**/ 
+ *============================================**/ 
 import Keypad from '../Keypad/Keypad';
 import ControlButtons from '../controlButtons/controlButtons';
-// import ScoreByInning from '../scoreByInning/scoreByInning';
+import ScoreByInning from '../scoreByInning/scoreByInning';
 import ScoreBoxes from '../scoreBox/scoreBoxes';
-
 
 /**============================================
  **        MAIN - Component Container
  ** SECTION - States and Hooks
  ** SECTION - JS functions for rendering view
  ** SECTION - Baseball Darts Component View
-
  ** see index.css for styling 
  *=============================================**/
 export default function MainContainer() {
@@ -42,10 +45,7 @@ export default function MainContainer() {
    *@var currentInning number  
    *@var innings number  
    *@var currentInning number
-
    *@
-
-
    *@return void
    *=============================================**/
   const nextInning = () => {
@@ -107,10 +107,8 @@ export default function MainContainer() {
     <div className="bg-main">
       <ScoreBoxes awayScores={awayScores} homeScores={homeScores} isTop={isTop} currentInning={currentInning} ></ScoreBoxes>
       <ControlButtons tempScore={tempScore} updateScore={updateScore} undoScore={undoScore} />
-
       <Keypad setTempScore={setTempScore} />
-
-      {/* <ScoreByInning awayScores={awayScores} homeScores={homeScores} innings={innings} /> */}
+      <ScoreByInning awayScores={awayScores} homeScores={homeScores} innings={innings} />
     </div>
   );
 }

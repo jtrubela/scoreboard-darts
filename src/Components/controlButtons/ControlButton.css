@@ -1,62 +1,66 @@
-/* src/Components/controlButtons/ControlButton.css */
+/**==============================================
+ * *             ControlButton Styling
+ 
+ *   Inning Arrows css styling
 
-/**===========================================================================
- *                          ControlButton Styling
+ *  Container - control-buttons-container, body
+ *  Button  - control-button
+ *  
+ *=============================================**/
+ /* src/Components/controlButtons/ControlButton.css */
+
+ /**===========================================================================
+ /*SECTION -            Button
  *===========================================================================**/
-
-/* General styling for the control button body */
-#ControlButton .body { 
-  margin: 4px; /* Added unit for margin */
-  display: inline-flex;
-  justify-content: space-evenly;
-}
-
-/* Commented out block for the button styling */
-
-#ControlButton .button {
-  background-color: #ffffff;
-  border: 4px solid blue;
-  padding: 0.6em 1.2em;
-  padding: 2px;
-  font-size: large;
-  color: #000000;
-  margin: 1px;
-  cursor: pointer;
-  border-radius: 0.5;
-}
-
-
 /* Container styling for control buttons */
 #ControlButton .control-buttons-container {
   width: 100%; /* Ensure container takes full width */
+  width: 518px;
+
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem;
+  justify-content: center; /* Centers the buttons within the container */
+  align-items: center;  /* Aligns elements centered in horizontal container */
+
+  padding-bottom: 1rem; /* Padding below the control panel */
+  gap: 10px;   /* Adds space between the buttons */
 }
 
+/* General styling for the control button body */
+/* Changed to flexbox for easier centering */
+/* Centers the buttons horizontally */
+#ControlButton .body {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin: 2px;
+}
+
+
+/**===========================================================================
+ /*SECTION -            Button
+ *===========================================================================**/
 /* Styling for individual control buttons */
+/* width - auto - Allow buttons to size according to their content */
 #ControlButton .control-button {
-  width: 50%; /* Ensure buttons take half the width */
-  justify-content: space-between;
-  border-radius: 8px;
-  border: 1px solid transparent;
+  /* width: auto;  */
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid transparent;
   cursor: pointer;
-  transition: border-color 0.25s;
-
+  transition: border-color 0.25s, background-color 0.25s;
   /* Hover state for buttons */
-  button:hover {
+  &:hover {
     border-color: #646cff;
+    background-color: #333333;
   }
-
   /* Focus state for buttons */
-  button:focus,
-  button:focus-visible {
+  &:focus,
+  &:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
   }
 }
