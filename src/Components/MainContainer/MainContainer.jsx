@@ -16,7 +16,7 @@ import { useState, useEffect } from 'react';
  *============================================**/ 
 import Keypad from '../Keypad/Keypad';
 import ControlButtons from '../controlButtons/controlButtons';
-import ScoreByInning from '../scoreByInning/scoreByInning';
+// import ScoreByInning from '../scoreByInning/scoreByInning';
 import ScoreBoxes from '../scoreBox/scoreBoxes';
 
 /**============================================
@@ -108,7 +108,7 @@ export default function MainContainer() {
       <ScoreBoxes awayScores={awayScores} homeScores={homeScores} isTop={isTop} currentInning={currentInning} ></ScoreBoxes>
       <ControlButtons tempScore={tempScore} updateScore={updateScore} undoScore={undoScore} />
       <Keypad setTempScore={setTempScore} />
-      <ScoreByInning awayScores={awayScores} homeScores={homeScores} innings={innings} />
+            {/* <ScoreByInning awayScores={awayScores} homeScores={homeScores} innings={innings} /> */}
     </div>
   );
 }
