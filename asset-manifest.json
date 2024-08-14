@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scoreboard-darts/static/css/main.bf85ce4f.css",
+    "main.css": "/scoreboard-darts/static/css/main.9ff2765b.css",
     "main.js": "/scoreboard-darts/static/js/main.2475a0e4.js",
     "static/js/488.4da132bd.chunk.js": "/scoreboard-darts/static/js/488.4da132bd.chunk.js",
     "index.html": "/scoreboard-darts/index.html",
-    "main.bf85ce4f.css.map": "/scoreboard-darts/static/css/main.bf85ce4f.css.map",
+    "main.9ff2765b.css.map": "/scoreboard-darts/static/css/main.9ff2765b.css.map",
     "main.2475a0e4.js.map": "/scoreboard-darts/static/js/main.2475a0e4.js.map",
     "488.4da132bd.chunk.js.map": "/scoreboard-darts/static/js/488.4da132bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf85ce4f.css",
+    "static/css/main.9ff2765b.css",
     "static/js/main.2475a0e4.js"
   ]
 }
