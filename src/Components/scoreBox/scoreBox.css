@@ -1,0 +1,78 @@
+/* src/Components/ScoreBox/ScoreBox.css */
+/* Style for the container holding ScoreBox and InningBox elements */
+.score-boxes-container {
+  display: flex;
+  justify-content: space-between; /* Ensures equal spacing between ScoreBox, InningBox, and ScoreBox */
+  align-items: center; /* Aligns items vertically in the center */
+  padding: 1rem; /* Optional padding around the container */
+}
+
+
+
+#ScoreBored 
+  .score-container {
+    max-width: 30%;
+    position: relative;
+    background-color: #064e3b;
+    min-width: 170px ;
+    border: 2px solid black;
+    color: white; 
+    text-align: center; 
+    padding: 1rem 1.25rem; 
+    border-radius: 0.375rem; 
+    border: inset rgb(255, 255, 255);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    width: 8rem;
+  }
+  
+  #ScoreBored   
+    .scoreBored {
+    .score-inning-container {
+      max-width: 100%;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    } 
+  }
+  #ScoreBored 
+    .team-name {
+        font-size: 1.25rem;      
+        font-weight: 700;          
+        padding-bottom: 4px;      
+    }
+    #ScoreBored 
+    .score-total {
+        font-size: 3rem;           
+        font-weight: 800;          
+    }
+    
+    #ScoreBored 
+    .divider {
+        position: absolute;
+        top: 2.75rem;      
+        left: 0.75rem;    
+        right: 0.75rem;           
+        height: 0.150rem;
+        background-color: white; 
+    }
+
+  
+  
+  @media (max-width: 768px) {
+    .scoreBored {
+      max-width: 800px;
+      font-size: 3.5rem; 
+      padding-bottom: 2px;      
+  
+    }
+  
+    .score-container {
+      max-width: 400px;
+    }
+  
+    .score-inning-container {
+      max-width: 600px;
+    }
+  }
+
+  

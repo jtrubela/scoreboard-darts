@@ -1,0 +1,77 @@
+/* src/components/InningBox.css */
+
+/* Centering the content of InningBox */
+#InningBox .inning-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.875rem;
+}
+
+
+#InningBox .inning-container {
+  background-color: #006400;
+  max-width: 80px;
+  border-radius: 0.375rem;
+  color: white;
+  text-align: center;
+  font-size: 1.875rem;
+  border: 2px inset rgb(255, 255, 255);
+}
+
+  
+#InningBox
+.inning-container, .inning-number, .arrow-box {
+  font-size: 2rem;
+}
+
+#InningBox .inning-header {
+  font-size: small;
+  display: flex;
+}
+
+  
+
+/**==============================================
+ * *                InningBox 
+ *   Inning Arrows stling
+ *   
+ *   
+ *
+ *=============================================**/
+#InningBox
+.inning-content {
+    padding: 0.25rem;
+    max-width: 80px;
+
+    display: flex; 
+    /* align-items:center; */
+    /* padding: 0.25rem; */
+    justify-content: center;
+  }
+
+  #InningBox
+  .arrow-box {
+    display:flex;
+    width: 40px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #InningBox
+  .top-arrow,
+  .bottom-arrow {
+    font-size-adjust: 24px;
+  }
+  
+  #InningBox
+  .illuminated {
+    color: white; 
+  }
+  
+  #InningBox
+  .not-illuminated {
+    color: rgb(87, 85, 85);
+  }

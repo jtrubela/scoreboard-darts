@@ -1,0 +1,83 @@
+/* #BoxScore
+.bg-black {
+    background-color: black;
+  }
+  #BoxScore
+  .bg-opacity-50 {
+    opacity: 0.5;
+  }
+  #BoxScore
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  #BoxScore
+  .text-center {
+    text-align: center;
+  }
+  #BoxScore
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  #BoxScore
+  .flex {
+    display: flex;
+  }
+  #BoxScore
+  .gap-1 {
+    gap: 0.25rem;
+  }
+  #BoxScore
+  .items-center {
+    align-items: center;
+  }
+  #BoxScore
+  .border-b-2 {
+    border-bottom-width: 2px;
+  }
+  #BoxScore
+  .m-1 {
+    margin: 0.25rem;
+  }
+  #BoxScore
+  .my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  #BoxScore
+  .border-dashed {
+    border-style: dashed;
+  }
+  #BoxScore
+  .border-2 {
+    border-width: 2px;
+  }
+  #BoxScore
+  .text-lg {
+    font-size: 1.125rem;
+  }
+  #BoxScore
+  .bg-green-450 {
+    background-color: #68D391; 
+}
+#BoxScore
+  .bg-green-800 {
+    background-color: #2F855A; 
+  }
+  #BoxScore
+  .border-container {
+    position: relative;
+  }
+  #BoxScore
+  .border-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 2px;
+    background-color: white;
+  }
+  #BoxScore
+  .flex-auto {
+    flex: 1 1 auto;
+  }
+   */
