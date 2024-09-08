@@ -12,15 +12,15 @@
   /*!    Keyypad - Container    !*/
  /* Set min and max-width to control overall size */
 #Keypad .keypad-container {
-  min-width: 316px;  /* min/max width of button container */
+  /* min/max width of button container */
+  min-width: 316px;  
   max-width: 484px;
 
   display: grid;  /* displayed in grib pattern */
   grid-template-columns: repeat(3, 1fr);
 
-  gap: 1.5rem; /* Gap between buttons */
-  margin: 0 auto;
-  margin-bottom: 3.25rem;  /* Gap below buttons */
+  gap: 1rem; /* Gap between buttons */
+  margin: 10px;
 } 
 
   /*!    Keyypad - Button    !*/
@@ -41,16 +41,16 @@
 /* Responsive Design */
 /*REVIEW - Constraints Media Types */ 
 /* Large Device */
-@media (max-width: 368px) {
+/* @media (max-width: 368px) {
   #Keypad .keypad-button {
     padding: 1rem;
     font-size: 2rem;
   }
-}
+} */
 /* Small Device */
-@media (max-width: 380px) {
+/* @media (max-width: 380px) {
   #Keypad .keypad-button {
     padding: 0.75rem;
     font-size: 1.5rem;
   }
-}
+} */

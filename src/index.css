@@ -5,8 +5,8 @@ body {
   line-height: 1.5;
   color-scheme: light dark;
   background-color: #242424;
-  margin: 0 auto;
-  padding: 0 auto;
+  /* margin: 0 auto; */
+  /* padding: 0 auto; */
   /* ********** */
   height: 100vh;
  /* ********** */
@@ -20,17 +20,21 @@ body {
 
 .bg-main {
   /* width: 100%; */
-  min-height: fit-content;
-  min-width: 600px; /* Match the min-width of Keypad */
-  margin: 0 auto;
+  /* min-height: fit-content; */
+  /* min-width: 600px;  */
+  /* Match the min-width of Keypad */
+  /* margin: 0 auto; */
   background-color: green;
   border: 4px solid black;
   color: white;
-  padding: 0 auto; /* Reduced padding for better fit */
+  /* padding: 0 auto;  */
+  /* Reduced padding for better fit */
   border-radius: 1.5rem;
   display: flex;
+  /* justify-content: space-around; */
   flex-direction: column;
   align-items: center; /* Center content within bg-main */
+  justify-content: space-around;
 }
 
 

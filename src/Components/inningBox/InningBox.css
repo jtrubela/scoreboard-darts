@@ -9,23 +9,10 @@
  *=============================================**/
 /* src/components/InningBox.css */
 
-
-/*!       Inning Box - Box    !*/
-/* Centering the content of InningBox */
-#InningBox .inning-box {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items:center;
-
-  font-size: 1.875rem;
-}
-
 /*!     Inning Box - Container/Content/Arrows    !*/
 #InningBox .inning-container {
-  max-width: 100px;
-
+  display: flex;
+  
   background-color: #006400;
   color: white;
   border: 2px inset rgb(255, 255, 255);
@@ -33,17 +20,6 @@
 
   font-size: 1.875rem;
   text-align: center;
-}
-
-#InningBox .inning-container, .inning-number, .arrow-box {
-  font-size: 2.5rem;
-}
-
-#InningBox .inning-header {
-  margin-top: 2rem;
-  justify-content: center;
-  font-size:xx-small;
-  display: flex;
 }
 
 #InningBox .inning-content {
@@ -64,26 +40,36 @@
  *   
  *=============================================**/
 
+ #InningBox .inning-container, .inning-number, .arrow-box {
+  font-size: 2.5rem;
+}
+  /*!       Inning Box - Inning Header     !*/
+
+#InningBox .inning-header {
+  /* margin-top: 2rem; */
+  justify-content: space-around;
+  font-size:xx-small;
+  display: flex;
+}
   /*!       Inning Box - Inning Arrow     !*/
     #InningBox
   .arrow-box {
     display:flex;
-    margin-inline: 5px;
-    margin-right: 10px;
+
     width: 40px;
     height: 30px;
-    justify-content: center;
+
+    /*POSITION OF ARROWS*/
+    justify-content: space-between;
     align-items: center;
   }
   #InningBox .top-arrow,
-  .bottom-arrow {
-    font-size: 48px;
+  .bottom-arrow, .illuminated, .not-illuminated {
+    font-size: 30px;
   }
   #InningBox .illuminated {
-    font-size: 48px;
     color: white; 
   }
   #InningBox .not-illuminated {
-    font-size: 48px;
     color: rgb(87, 85, 85);
   }
