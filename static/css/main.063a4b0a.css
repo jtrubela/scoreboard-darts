@@ -6,7 +6,7 @@ body{background-color:#242424;color-scheme:light dark;font-family:Inter,system-u
 
 /*!SECTION*/.score-boxes-container{align-items:center;display:flex;gap:20px;justify-content:center;padding:.5rem}#ScoreBored .score-container{background-color:#064e3b;border:inset #fff;border-radius:.375rem;color:#fff;margin-top:1.25rem;max-width:75%;min-width:180px;position:relative;text-align:center}
 
-/*!SECTION*/#ScoreBored .team-name{font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif;font-size:1.25rem;font-weight:700;padding-bottom:4px}#ScoreBored .score-total{font-size:3rem;font-weight:800}#ScoreBored .divider{background-color:#fff;height:4px}@media (max-width:750px){.score-boxes-container{align-items:center;flex-direction:column;gap:10px;width:300px}.score-container{max-width:75%}}
+/*!SECTION*/#ScoreBored .team-name{font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif;font-size:1.25rem;font-weight:700;padding-bottom:4px}#ScoreBored .score-total{font-size:3rem;font-weight:800}#ScoreBored .divider{background-color:#fff;height:4px}@media (max-width:350px){.score-boxes-container{align-items:center;flex-direction:column;gap:10px;width:300px}.score-container{max-width:75%}}
 
 
 /*!       Inning Box - Box    !*/#InningBox .inning-box{align-items:center;display:flex;flex-direction:column;font-size:1.875rem;justify-content:center}
@@ -14,4 +14,4 @@ body{background-color:#242424;color-scheme:light dark;font-family:Inter,system-u
 /*!     Inning Box - Container/Content/Arrows    !*/#InningBox .inning-container{background-color:#006400;border:2px inset #fff;border-radius:.375rem;color:#fff;font-size:1.875rem;max-width:100px;text-align:center}#InningBox .inning-container,.arrow-box,.inning-number{font-size:2.5rem}#InningBox .inning-header{display:flex;font-size:xx-small;justify-content:center;margin-top:2rem}#InningBox .inning-content{display:flex;font-size:60;font-stretch:wider;font-weight:600;justify-content:center;padding-block:.2rem;padding-inline:.5rem}
 
   /*!       Inning Box - Inning Arrow     !*/#InningBox .arrow-box{align-items:center;display:flex;height:30px;justify-content:center;margin-inline:5px;margin-right:10px;width:40px}#InningBox .top-arrow,.bottom-arrow{font-size:48px}#InningBox .illuminated{color:#fff;font-size:48px}#InningBox .not-illuminated{color:#575555;font-size:48px}
-/*# sourceMappingURL=main.637de713.css.map*/
+/*# sourceMappingURL=main.063a4b0a.css.map*/
